@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import Header from "../components/Header";
 
 export default function HomePage() {
   return (
     <HomeContainer>
+      <Header />
       <h1>Ola</h1>
     </HomeContainer>
   );
