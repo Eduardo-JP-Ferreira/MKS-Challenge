@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import Header from "../components/Header";
+import Products from "../components/Products";
 
 export default function HomePage() {
   return (
     <HomeContainer>
       <Header />
-      <h1>Ola</h1>
+      <Products />
     </HomeContainer>
   );
 }
